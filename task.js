@@ -1,6 +1,6 @@
 let myIdol = {
-    firstName: "Cristiano",
-    lastName: "Ronaldo",
+    firstName: "cristiano",
+    lastName: "ronaldo",
     worldCup: 0,
     isMarried: "yes",
     isChildrens: 4,
@@ -53,9 +53,18 @@ function maritalStatus() {
 
 // console.log(myIdol);
 
-//delete
+//delete-1
 // delete myIdol.clubs
 // console.log(myIdol);
+
+//delete-2
+// myIdol={}
+
+//delete-3
+// for (let i in myIdol) {
+//     delete myIdol[i];
+//   }
+//   console.log(myIdol);
 
 
 
@@ -64,7 +73,7 @@ function maritalStatus() {
 // myIdol.lastName = "RONALDO";
 // console.log(myIdol);
 
-//a in push method
+// in push method
 // myIdol.clubs.push("EUROPEAN LEAGUE", "PORTUGAL")
 // console.log(myIdol);
 
