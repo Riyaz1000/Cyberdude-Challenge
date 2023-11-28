@@ -114,5 +114,3 @@ let fruits = ["apple", "orange" , "pineapple" , "grapes"];
 //delete
 // fruits =[]
 // console.log(fruits);
-
-

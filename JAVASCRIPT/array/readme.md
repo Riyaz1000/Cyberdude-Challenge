@@ -133,7 +133,7 @@ Deploy it and put the link here.
 
 ## Acknowledgement:
  - Any person who have helped you achieve this challenge. Mention them here. For example, look below.
- - Muthukumari [@anbu](https://github.com/anburocky3)
+ - Anbu [@anbu](https://github.com/anburocky3)
 
 ## References:
 
