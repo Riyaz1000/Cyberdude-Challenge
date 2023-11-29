@@ -15,14 +15,14 @@
 
 //prompt validation
 
-// const personName = "Riyaz";
-// const password = "1234";
-// const enterName = prompt("Enter Your Name", 'name');
-// const enterPassword = prompt ("Please Enter Your Pin", "*pin*");
+const personName = "Riyaz";
+const password = "1234";
+const enterName = prompt("Enter Your Name", 'name');
+const enterPassword = prompt ("Please Enter Your Pin", "*pin*");
 
-// if(enterName == personName && enterPassword == password ){
-//     console.log(`welcome ${personName}`);
-// }
-// else{
-//     console.log("Please enter Correct Name & Password");
-// }
+if(enterName == personName && enterPassword == password ){
+    console.log(`welcome ${personName}`);
+}
+else{
+    console.log("Please enter Correct Name & Password");
+}
