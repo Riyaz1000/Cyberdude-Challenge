@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "place": "coimbatore",
+    "food": "kongu style"
+  },
+  {
+    "id": 2,
+    "place": "Ambur",
+    "food": "Briyani City"
+  },
+  {
+    "id": 3,
+    "place": "karaikudi",
+    "food": "Chettinad Style"
+  },
+  {
+    "id": 4,
+    "place": "madurai",
+    "food": "Kaaram Saaram"
+  },
+  {
+    "id": 5,
+    "place": "tirunelveli",
+    "food": "Halwa City"
+  },
+  {
+    "id": 6,
+    "place": "Kumbakonam",
+    "food": "Degree Coffee"
+  }
+]
