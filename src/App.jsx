@@ -14,7 +14,7 @@ function App() {
       setInterns(fetchData);
     }
 
-    fetchInterns;
+    fetchInterns();
   }, []);
 
   return (
@@ -22,20 +22,11 @@ function App() {
       <div className=" bg-[#7c8f8f] min-h-screen">
         <TheNavbar />
 
-        <div>
-          {/* {interns.map((intern) => {
-            <Main
-              key={intern.id}
-              name={intern.name}
-              gender={intern.gender}
-              github={intern.github}
-              country={intern.country}
-            />;
-          })} */}
+        {interns.length === 0 ? <div>No Data Available Right Now </div> : ""}
 
+        <div className="grid grid-cols-3">
           {interns.map((intern) => (
             <Main
-              key={intern.id}
               name={intern.name}
               gender={intern.gender}
               github={intern.github}
